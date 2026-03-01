@@ -621,23 +621,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
 
 [[package]]
-name = "hello-leptos"
-version = "0.1.0"
-dependencies = [
- "console_error_panic_hook",
- "console_log",
- "getrandom 0.4.1",
- "leptos",
- "leptos_meta",
- "leptos_router",
- "log",
- "reactive_stores",
- "wasm-bindgen",
- "wasm-bindgen-test",
- "web-sys",
-]
-
-[[package]]
 name = "hermit-abi"
 version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -870,6 +853,23 @@ dependencies = [
  "wasm-bindgen",
  "wasm-bindgen-futures",
  "wasm_split_helpers",
+ "web-sys",
+]
+
+[[package]]
+name = "leptos-2048"
+version = "0.1.0"
+dependencies = [
+ "console_error_panic_hook",
+ "console_log",
+ "getrandom 0.4.1",
+ "leptos",
+ "leptos_meta",
+ "leptos_router",
+ "log",
+ "reactive_stores",
+ "wasm-bindgen",
+ "wasm-bindgen-test",
  "web-sys",
 ]
 

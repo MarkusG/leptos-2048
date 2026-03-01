@@ -1,5 +1,5 @@
 use leptos::prelude::*;
-use hello_leptos::App;
+use leptos_2048::App;
 
 fn main() {
     // set up logging
